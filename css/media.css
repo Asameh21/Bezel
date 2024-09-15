@@ -1,0 +1,44 @@
+@media (min-width: 992px) {
+  #services .serv-f-col p {
+    width: 380px;
+  }
+  .special-inner {
+    transform: scale(1.1);
+  }
+}
+@media (max-width: 992px) {
+  #services .serv-f-col h2::before {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #home .owl-carousel .owl-nav {
+    top: 30%;
+  }
+  .navbar .container ul.nav-social-links {
+    display: none !important;
+  }
+  .navbar .container .navbar-nav .nav-item a:hover {
+    color: rgb(120, 120, 120);
+  }
+  #contact .form {
+    padding: 70px;
+  }
+  #contact .form input,
+  textarea {
+    width: 100%;
+  }
+  #pricing .test-card {
+    width: fit-content;
+  }
+  .owl-carousel .owl-nav button.owl-next,
+  .owl-carousel .owl-nav button.owl-prev {
+    display: none;
+  }
+}
+
+@media (max-width: 520px) {
+  #home .owl-item h1 {
+    line-height: 80px;
+    font-size: 50px;
+  }
+}
